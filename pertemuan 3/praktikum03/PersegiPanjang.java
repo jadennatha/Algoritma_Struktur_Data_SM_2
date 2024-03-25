@@ -15,11 +15,11 @@ public class PersegiPanjang{
        System.out.println("Panjang :" + panjang + ", lebar : " + lebar + ", luas : " + luas + ", keliling : " + keliling);
     }
 
-    public void hitungLuas(){
-        luas = panjang * lebar;    
+    public int hitungLuas(){
+        return luas = panjang * lebar;    
     }
 
-    public void hitungKeliling(){
-        keliling = (2*panjang) + (2*lebar);
+    public int hitungKeliling(){
+        return keliling = (2*panjang) + (2*lebar);
     }
 }
